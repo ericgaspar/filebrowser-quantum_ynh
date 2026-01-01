@@ -1,1 +1,2 @@
-Ceci est une fausse description des fonctionalités de l'app
+FileBrowser Quantum offre un moyen simple d'accéder à vos fichiers et de les gérer depuis le Web. Il dispose d'une interface moderne et réactive qui offre de nombreuses fonctionnalités avancées pour gérer les utilisateurs, l'accès, le partage, ainsi que la prévisualisation et l'édition des fichiers.
+Cette version est appelée « Quantum » car elle regroupe de nombreuses fonctionnalités avancées dans un petit fichier facile à exécuter. Contrairement à la plupart des autres options disponibles, FileBrowser Quantum est simple à installer et facile à configurer.
