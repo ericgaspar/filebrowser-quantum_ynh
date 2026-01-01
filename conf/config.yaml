@@ -20,7 +20,7 @@ server:
       utc: false                          # use UTC time in the output instead of local time
   database: "database.db"                 # path to the database file
   sources:                                #  validate:required,dive
-    - path: "."                           # file system path. (Can be relative)  validate:required
+    - path: "__DATA_DIR__"                # file system path. (Can be relative)  validate:required
       name: "backend"                     # display name
       config:
         denyByDefault: false              # deny access unless an "allow" access rule was specifically created.
