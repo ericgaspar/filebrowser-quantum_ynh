@@ -7,9 +7,8 @@ Type=simple
 User=__APP__
 Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
-ExecStart=__INSTALL_DIR__/filebrowser -c /opt/filebrowser/config.yaml
+ExecStart=__INSTALL_DIR__/filebrowser -c __INSTALL_DIR__/config.yaml
 Restart=on-failure
-
 
 # Sandboxing options to harden security
 # Details for these options: https://www.freedesktop.org/software/systemd/man/systemd.exec.html
