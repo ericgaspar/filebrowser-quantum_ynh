@@ -54,7 +54,7 @@ ram.runtime = "50M"
     rename = "filebrowser"
     extract = false
     url = "https://github.com/gtsteffaniak/filebrowser/releases/download/v1.1.0-stable/linux-amd64-filebrowser"
-    sha256 = "97a0ab0fba219dbfd09717963bd10b281e22d9cacf2af9002797e77e2417bbf7"
+    sha256 = "6155b03cb9fcaccd158577c91a6d92858aa6bfbb128b6e9b3222e7a284d55b7c"
 
     autoupdate.strategy = "latest_github_release"
 
