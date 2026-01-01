@@ -13,7 +13,7 @@ server:
   baseURL: "/"                            # base URL for the server, the subpath that the server is running on.
   logging:
     - levels: ""                          # separated list of log levels to enable. (eg. "info|warning|error|debug")
-      apiLevels: ""                       # separated list of log levels to enable for the API. (eg. "info|warning|error")
+      apiLevels: "error"                  # separated list of log levels to enable for the API. (eg. "info|warning|error")
       output: "stdout"                    # output location. (eg. "stdout" or "path/to/file.log")
       noColors: false                     # disable colors in the output
       json: false                         # output in json format
