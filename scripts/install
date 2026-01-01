@@ -37,6 +37,13 @@ ynh_config_add_systemd
 yunohost service add "$app" --description="A short description of the app" --log="/var/log/$app/$app.log"
 
 #=================================================
+# INSTALL FILEBROWSER
+#=================================================
+ynh_script_progression "Installing the app..."
+
+ynh_hide_warnings ynh_exec_as_app $install_dir/filebrowser set -u $admin,$password -a -c config.yaml
+
+#=================================================
 # START SYSTEMD SERVICE
 #=================================================
 ynh_script_progression "Starting $app's systemd service..."

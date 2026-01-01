@@ -15,8 +15,7 @@ maintainers = ["eric_G"]
 license = "free"
 website = "https://example.com"
 demo = "https://demo.example.com"
-admindoc = "https://yunohost.org/packaging_apps"
-userdoc = "https://yunohost.org/apps"
+admindoc = "https://filebrowserquantum.com/en/docs/getting-started/linux/"
 code = "https://github.com/gtsteffaniak/filebrowser"
 
 [integration]
@@ -36,16 +35,15 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
-    [install.path]
-    type = "path"
-    default = "/example"
-
     [install.init_main_permission]
     type = "group"
     default = "visitors"
 
     [install.admin]
     type = "user"
+
+    [install.password]
+    type = "password"
 
 [resources]
 

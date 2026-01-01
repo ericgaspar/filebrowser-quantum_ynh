@@ -4,7 +4,7 @@ server:
   logging:
     - levels: "warning"
   sources:
-    - path: "/srv"
+    - path: "__DATA_DIR__"
 userDefaults:
   editorQuickSave: false                  # show quick save button in editor
   hideSidebarFileActions: false           # hide the file actions in the sidebar
