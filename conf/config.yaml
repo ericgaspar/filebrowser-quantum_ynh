@@ -10,7 +10,7 @@ server:
   disableTypeDetectionByHeader: false     # disable type detection by header, useful if filesystem is slow.
   port: __PORT__                          # port to listen on
   listen: "127.0.0.1"                     # address to listen on (default: 0.0.0.0)
-  baseURL: "/"                            # base URL for the server, the subpath that the server is running on.
+  baseURL: "__PATH__"                     # base URL for the server, the subpath that the server is running on.
   logging:
     - levels: ""                          # separated list of log levels to enable. (eg. "info|warning|error|debug")
       apiLevels: "error"                  # separated list of log levels to enable for the API. (eg. "info|warning|error")
