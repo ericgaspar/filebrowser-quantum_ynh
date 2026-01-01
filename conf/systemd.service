@@ -1,5 +1,5 @@
 [Unit]
-Description=FileBrowser Quantum
+Description=FileBrowser Quantum: Web File Browser
 After=network.target
 
 [Service]
