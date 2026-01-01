@@ -1,8 +1,8 @@
 server:
-  port: 80
+  port: __PORT__
   baseURL:  "/"
   logging:
-    - levels: "info|warning|error"
+    - levels: "warning"
   sources:
     - path: "/srv"
 userDefaults:
@@ -49,4 +49,3 @@ userDefaults:
   customTheme: ""                         # Name of theme to use chosen from custom themes config.
   showSelectMultiple: false               # show select multiple files on desktop
   debugOffice: false                      # debug onlyoffice editor
-  
