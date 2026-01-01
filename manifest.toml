@@ -19,7 +19,7 @@ code = "https://github.com/gtsteffaniak/filebrowser"
 [integration]
 yunohost = ">= 12.1.17"
 helpers_version = "2.1"
-architectures = "all"
+architectures = ["amd64", "arm64"]
 multi_instance = true
 
 ldap = false
@@ -51,8 +51,10 @@ ram.runtime = "50M"
     in_subdir = false
     rename = "filebrowser"
     extract = false
-    url = "https://github.com/gtsteffaniak/filebrowser/releases/download/v1.1.0-stable/linux-amd64-filebrowser"
-    sha256 = "6155b03cb9fcaccd158577c91a6d92858aa6bfbb128b6e9b3222e7a284d55b7c"
+    amd64.url = "https://github.com/gtsteffaniak/filebrowser/releases/download/v1.1.0-stable/linux-amd64-filebrowser"
+    amd64.sha256 = "6155b03cb9fcaccd158577c91a6d92858aa6bfbb128b6e9b3222e7a284d55b7c"
+    arm64.url = "https://github.com/gtsteffaniak/filebrowser/releases/download/v1.1.0-stable/linux-arm64-filebrowser"
+    arm64.sha256 = "368eb74fda250d8380809e112c7f572c3175c578b7b48cadb06adfc652694bfd"
 
     autoupdate.strategy = "latest_github_release"
 
